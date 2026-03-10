@@ -1,0 +1,31 @@
+#listaprincipal{
+    display: flex;        
+    justify-content: center;    
+    background-color: #f834d7;
+    font-size:50px;
+    margin: 0px;
+    gap: 12;
+    list-style: none;
+    align-items: center;
+}
+#listaprincipal img{
+    width: 250px;
+}#listaprincipal a{
+    text-decoration: none;    
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+     margin: 20px;
+}
+#listaprincipal a :hover{
+    transition: 0.2s;
+    color: rgb(225, 152, 6);
+    margin-top: 5px;
+    box-shadow: 3px 7px 10px black;
+    border-radius: 2px 8px 12px 4px;
+    /* background-color: chartreuse; */
+    /* sugestao vini
+    - tira o background
+    - color: rgb() -- um pouco mais claro talvezz;  */
+
+}
