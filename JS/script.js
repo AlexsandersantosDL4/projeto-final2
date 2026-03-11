@@ -5,7 +5,7 @@ const sub = getElementsByClassName('sub');
 let numero = 0;
 let intervaloclass = 0;
 
-somar.addeventlistener('mousedown',, () => {
+somar.addeventlistener('mousedown', () => {
     intervaloclass = setintervalo(() => { 
         count += 1;
         updateValor();  
