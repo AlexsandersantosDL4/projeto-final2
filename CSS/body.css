@@ -85,9 +85,7 @@ button {
     font-size: 22px;
     padding: 6px;
 }
-.span{
-    color: #6dac54dc;
-}
+
 .titulo{
     color: hsl(54, 93%, 57%);
     text-align: center;
@@ -96,16 +94,75 @@ button {
     align-items: flex-end;
     left: 20px;
 }
-#açaiteria-img {
-    justify-content: flex-start;
-    background-color: rgb(209, 169, 120);
-    border-radius: 0px 0px 50px 12px;  
-    width: 40%;
-    height: 30%;
+#cardapio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+#cardapio h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 56px;
+}
+#icone{
+    font-size: 34px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#infhome{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: rgb(251, 180, 39);
+    justify-content:center;
+}
+
+.cardscasa{
+    width: 600px;
+    height: 600px;
+    background-color: #b735a8;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* padding: 200px; */
+    border: 3px solid rgb(219, 191, 34);
+    box-shadow: 5px solid rgb(225, 152, 6);
+    font-weight: 600;
+    font-size: 35px;
+    word-wrap: wrap;
+    
 
 }
-#sub{
-    color: ghostwhite;
-    margin: 0px;
+.imgcasa{
+    width: 620px;
+    height: 600px;
+    border-radius: 12px 10px 30px ;
+    z-index: 3;
+}
+#sobrenos{
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    background-color: rgba(240, 181, 20, 0.87);
+    border-radius: 13px;
+}
+#sobrenos h1{
     text-align: center;
+}
+#sobretitulo{
+    font-style: italic;
+    word-wrap: break-word;
+    font-weight: bolder;
+}
+
+#sobreacai{
+    font-size: 20px;
+    text-align: justify;
+    padding: 15px;
+    color: rgba(255, 228, 196, 0.911);
 }
